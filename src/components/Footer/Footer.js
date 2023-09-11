@@ -5,7 +5,7 @@ export default function Footer() {
 
         <div className="footer">
 
-            <h1>about</h1>
+            <h1>Footer</h1>
 
         </div>
     )
