@@ -9,22 +9,22 @@ import { createBrowserRouter, RouterProvider,} from "react-router-dom";
 const router = createBrowserRouter([
     {
       path: "/",
-      element:<Home/>
+      element:<Home/>,
     },
 
     {
         path: "/about",
-    element:<About/>
+    element:<About/>,
 },
 
       {
         path: "/contact",
-      element:<Contact/>
+      element:<Contact/>,
       },
       
       {
         path: "/product",
-      element:<Products/>
+      element:<Products/>,
       },
       
     
@@ -33,8 +33,4 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
-root.render(
-  
-    <RouterProvider router={router} />
-
-);
+root.render(<RouterProvider router={router} />);

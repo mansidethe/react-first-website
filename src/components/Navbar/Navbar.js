@@ -15,5 +15,5 @@ export default function Navbar() {
         <Link to="/about" className="active">About</Link>
 
         </div>
-    )
+    );
 }
